@@ -1,6 +1,6 @@
 # Your Shiny Application
 
-#Tasks
+##Tasks
 
 Write a shiny application with associated supporting documentation. The application must include the following:
 
@@ -14,13 +14,13 @@ You must also include enough documentation so that a novice user could use your 
 *	Share the application link by pasting it into the text box below
 *	Share your server.R and ui.R code on github
 
-- web link to the app:
+#### web link to the app:
 
 ### To find shiny app online, please click [here](https://memed.shinyapps.io/UN_COMTRADE/)
 
 #Your Reproducible Pitch Presentation
 
-#Tasks
+##Tasks
 Make a 5-slide (inclusive of the title slide) presentation to pitch your app. You're going to create a web page using Slidify or Rstudio Presenter with an html5 slide deck.
 *	5 slides to pitch our idea done in Slidify or Rstudio Presenter
 *	Your presentation pushed to github or Rpubs
@@ -33,7 +33,7 @@ Your presentation must satisfy the following
 *	It must contained some embedded R code that gets run when slidifying the document
 *	publish your slidify presentation to github or Rpubs (one line publish command). 
 
-- web link to the presentation:
+#### web link to the presentation:
 ### To find shiny app online, please click [here](https://memed.shinyapps.io/UN_COMTRADE/)
 
 
