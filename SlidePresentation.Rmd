@@ -18,7 +18,7 @@ This simple app provides an unique opportunity for the viewers to search for his
 Searched information deficit/surplus are displayed by selecting the year by hovering the mouse cursor over the graph.
 Principal products and their value are summarized in table output format under 'Data' tab. 
 
-(Data source: National Oceanic and Atmospheric Administration, NORR, HTTP://WWW.nova.gov)
+(Data source: United Nation COMTRADE Database http://comtrade.un.org/data/)
 
 
 
