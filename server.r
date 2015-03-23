@@ -41,7 +41,7 @@ if (sum(Exp()[,5])-sum(Imp()[,5])>=0)
        "and Trade surplus (Millions $) is:"))
        
     
-else { print(paste("Between USA and", input$Country_var, "US Exports cover US Import,",
+else { print(paste("Between USA and", input$Country_var, "US Exports don't cover US Import,",
        "and Trade deficit (Millions $) is:"))
      }
                        
