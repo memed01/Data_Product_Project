@@ -1,4 +1,4 @@
-# World Trade with USA
+#### World Trade with USA
 
 
 
@@ -19,24 +19,18 @@ Principal products and their value are summarized in table output format under '
 (Data source: United Nation COMTRADE Database http://comtrade.un.org/data/)
 
 ***********
-## To view Trade Deficit/Surplus Between USA and a country
+###### To view Trade Deficit/Surplus Between USA and a country
 
 You first have to choose the year by hovering the mouse cursor, then you choose a country:
- 
-![image1](C:/Data_Scientist/Cours/Developing_Data_Products/UN_COMTRADE/Pictures/DeficitTrade.jpg)
 
 ***********
-## To view the main products imported by USA in a country
+###### To view the main products imported by USA in a country
 
 You first have to choose the year by hovering the mouse cursor, then you choose a country, and a Trade Flow="Import":
- 
-![image2](C:/Data_Scientist/Cours/Developing_Data_Products/UN_COMTRADE/Pictures/DecsendingTrade.jpg)
 
 ***********
-## To view the main products exported by USA in a country
+###### To view the main products exported by USA in a country
 
 You first have to choose the year by hovering the mouse cursor, then you choose a country, and a Trade Flow="Export":
- 
-![image2](C:/Data_Scientist/Cours/Developing_Data_Products/UN_COMTRADE/Pictures/DecsendingTrade.jpg) 
 
 You can make the same thing with Re-exportations, to view main item which are rexportated in USA.
