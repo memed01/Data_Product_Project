@@ -13,8 +13,8 @@ shinyUI(fluidPage(
                 "select the year by hovering the mouse cursor over the graph, and enter a country,",
                 'Then press the "GO?" button')),
                 
-                sliderInput("range", label = "Year:", min = 2007, max = 2013, 
-                value = c(2007, 2013),sep=""),
+                sliderInput("range", label = "Year:", min = 2010, max = 2019, 
+                value = c(2010, 2019),sep=""),
                 br(),                
                 selectInput("Country_var", h4("Choose US Partner"), choices=unique(as.character(df1$USPartner))), 
                 br(),
