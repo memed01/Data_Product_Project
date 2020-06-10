@@ -1,7 +1,7 @@
 #Example1:
 #Using default parameters (i.e., latest annual HS total trade data flows, in json format),
 # specifying only reporting and partner areas
-setwd("C:/Data_Scientist/Cours/Developing Data Products/UN_COMTRADE")
+#setwd("C:/Data_Scientist/Cours/Developing Data Products/UN_COMTRADE")
 source(getcomtrade.r)
 library("rjson")
 
@@ -28,5 +28,5 @@ US2017<-as.data.frame(s17$data)
 US2018<-as.data.frame(s18$data)
 US2019<-as.data.frame(s19$data)
 
-US_Trade<-rbind(US2010,US2011,US2012,US2013,US2014,US2015,US2016,US2017,US2018,US2019)
+df1<-rbind(US2010,US2011,US2012,US2013,US2014,US2015,US2016,US2017,US2018,US2019)
 save(df1,file="US_Trade.RData")
