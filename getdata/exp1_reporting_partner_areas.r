@@ -28,5 +28,8 @@ US2017<-as.data.frame(s17$data)
 US2018<-as.data.frame(s18$data)
 US2019<-as.data.frame(s19$data)
 
+#ps10 = toString(2010:2019)
+#s10 <- get_comtrade(r = "156", ps = ps10, p = "All",fmt="csv")
+
 df1<-rbind(US2010,US2011,US2012,US2013,US2014,US2015,US2016,US2017,US2018,US2019)
 save(df1,file="US_Trade.RData")
