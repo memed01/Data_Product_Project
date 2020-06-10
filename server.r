@@ -1,4 +1,4 @@
-source(getcomtrade.r)
+source(getdata/getcomtrade.r)
 library("rjson")
 
 s10 <- get.Comtrade(r="842", cc="AG2", ps="2010", p="All", fmt="csv")
