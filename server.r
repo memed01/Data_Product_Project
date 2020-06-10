@@ -1,8 +1,8 @@
 #setwd("C:/Data_Scientist/Cours/Developing Data Products/UN_COMTRADE")
 #list.files("C:/Data_Scientist/Cours/Developing Data Products/UN_COMTRADE")
 library(shiny)
-load("US_Trade.RData")
-df1<-df1[order(df1$US_Trade, decreasing = TRUE),]
+#load("US_Trade.RData")
+df1<-df1[order(df1$US_Trade.value, decreasing = TRUE),]
 Limp<-df1[df1$TradeFlow == "Import",]
 Lexp<-df1[df1$TradeFlow == "Export",]
 
